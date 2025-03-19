@@ -35,12 +35,12 @@ work = input('how you want your curve done (instant/slow): ').lower()
 dragon = turtle.Turtle()
 dragon.hideturtle()
 dragon.speed(0)
-dragon.color('white')
+dragon.color(pen_color)
 
 # create screen
 screen = turtle.Screen()
 screen.title('Dragon Curve')
-screen.bgcolor('black')
+screen.bgcolor(background_color)
 
 if work == 'instant':
     turtle.tracer(0, 0)
